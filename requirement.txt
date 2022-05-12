@@ -1,10 +1,20 @@
+First Need Install Dependancy
+---------------------------------------
 sudo pip3 install fastapi
 sudo pip3 install "uvicorn[standard]"
 sudo pip3 install flask-sqlalchemy
 sudo pip3 install pydantic
 sudo pip3 install sqlite3
+=============================================
+
+$ mkdir fastapi-location
+$ cd fastapi-location
+$ cat > main.py (add my mai.py commend)
+$ copy the test.db on same main file location
 
 run - uvicorn main:app --reload
 
+Goto Browser - http://127.0.0.1:8000/docs
 
+ Then u can add, delete, update, View
 
