@@ -1,0 +1,10 @@
+sudo pip3 install fastapi
+sudo pip3 install "uvicorn[standard]"
+sudo pip3 install flask-sqlalchemy
+sudo pip3 install pydantic
+sudo pip3 install sqlite3
+
+run - uvicorn main:app --reload
+
+
+
